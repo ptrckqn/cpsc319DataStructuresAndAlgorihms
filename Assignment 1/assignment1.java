@@ -213,7 +213,7 @@ public class assignment1{
       quickSort(arr, low, j);
 
       if (high > i)
-      quickSort(arr, i, high);
+      quickSort(arr, mid, high);
   }
 
 }
